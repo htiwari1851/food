@@ -1,0 +1,42 @@
+/* small desktop */
+@media only screen and (max-width: 1040px){
+    h1{
+        font-size: 2.5rem;
+        color:green;
+    }
+    h2{
+        color:brown;
+    }
+    
+    section{
+        padding :2.5% 4.5% ;
+    }
+}
+/* tablet and ipad */
+  /* <!-- priority wise last will run  --> */
+@media only screen and (max-width: 1026px){
+    *{
+        flex-direction: column;
+      }
+   nav ul li a {
+      font-size: 0.7rem;
+      
+  }
+    h1{
+        font-size: 200%;
+        color:blue;
+    }
+    h2{
+        font-size: 150%;
+        color:blue;
+    }
+    nav ul{
+        flex-direction: initial;
+    }
+    .footer-text{
+        flex-direction: initial;
+    }
+
+    
+}
+
